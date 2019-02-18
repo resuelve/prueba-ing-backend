@@ -12,15 +12,16 @@ Todo jugador dependiendo de su nivel (A, B, C) tiene un número de goles mínimo
 
 | Nivel |Goles/mes|
 | ------------- |:-------------:| 
-|Cuau |20|
 |A |5|
 |B |10|
 |C |15|
+|Cuau |20|
 
 
-El alcance de meta individual es el porcentaje de goles realizados contra el mínimo, es decir, si un Jugador A hace 15 goles en un mes tiene 100% de la parte proporcional de su bono que corresponte al alcance individual de la meta, si hace más de 15 sigue teniendo el 100% por que el % esta topado, pero, si hace 13 puntos tendría el 86%.
 
-El alcance de meta del equipo se calcula sacando un promedio del alcance de meta individual de cada miembro del equipo.
+El alcance de meta individual es el porcentaje de goles realizados contra el mínimo, es decir, si un Jugador C hace 15 goles en un mes tiene 100% de la parte proporcional de su bono que corresponte al alcance individual de la meta, si hace más de 15 sigue teniendo el 100% por que el % esta topado, pero, si hace 13 puntos tendría el 86%.
+
+El alcance de meta del equipo es el promedio del alcance de meta individual de todos los miembros.
 
 Ya sabiendo los porcentajes de alcance de meta tanto individual como por equipo ya podemos saber qué cantidad del bono le corresponde a cada jugador. 
 
