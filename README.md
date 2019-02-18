@@ -16,7 +16,7 @@ Todo jugador dependiendo de su nivel (A, B, C) tiene un número de goles mínimo
 |B |10|
 |C |15|
 
-El alcande de meta individual es el porcentaje de goles realizados contra el mínimo, es decir, si un Jugador A hace 15 goles en un mes tiene 100% de la parte proporcional de su bono que corresponte al alcance individual de la meta, si hace más de 15 sigue teniendo el 100% por que el % esta topado, pero, si hace 13 puntos tendría menos del 100%.
+El alcance de meta individual es el porcentaje de goles realizados contra el mínimo, es decir, si un Jugador A hace 15 goles en un mes tiene 100% de la parte proporcional de su bono que corresponte al alcance individual de la meta, si hace más de 15 sigue teniendo el 100% por que el % esta topado, pero, si hace 13 puntos tendría el 86%.
 
 El alcance de meta del equipo se calcula sacando un promedio del alcance de meta individual de cada miembro del equipo.
 
