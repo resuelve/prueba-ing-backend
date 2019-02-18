@@ -4,7 +4,7 @@ Nos da gusto que quieras aplicar a trabajar como ingeniero en Resuelve, si quier
 
 ## Calculo de Bonos 
 
-El sueldo del equipo de football se compone de dos partes **un sueldo fijo** y **un bono variable**, la suma de estas dos partes hace el saliario completo de un jugador. Tenemos varios criterios para poder calcular la parte variable que se divide en dos **alcance de meta individual** y **alcance de meta por equipo**.
+El sueldo del equipo de football se compone de dos partes **un sueldo fijo** y **un bono variable**, la suma de estas dos partes hace el salario completo de un jugador. Tenemos varios criterios para poder calcular el bono variable que se divide en dos partes iguales **alcance de meta individual** y **alcance de meta por equipo**, osea 50% de meta individual y 50% de meta por equipo.
 
 ### ¿Cómo se calculan los alcances de meta y bonos? 
 
@@ -12,9 +12,11 @@ Todo jugador dependiendo de su nivel (A, B, C) tiene un número de goles mínimo
 
 | Nivel |Goles/mes|
 | ------------- |:-------------:| 
+|Cuau |20|
 |A |5|
 |B |10|
 |C |15|
+
 
 El alcance de meta individual es el porcentaje de goles realizados contra el mínimo, es decir, si un Jugador A hace 15 goles en un mes tiene 100% de la parte proporcional de su bono que corresponte al alcance individual de la meta, si hace más de 15 sigue teniendo el 100% por que el % esta topado, pero, si hace 13 puntos tendría el 86%.
 
@@ -24,7 +26,7 @@ Ya sabiendo los porcentajes de alcance de meta tanto individual como por equipo 
 
 ## La prueba
 
-Aquí en Resuelve nos gusta resolver problemas, pero también resolverlos con estilo, tu reto es que nos ayudes a calcular el sueldo final de los jugdores usando la inforamción de arriba y el set de datos del servicio de abajo. Puedes usar el lenguaje que más te guste para desarrollar la prueba.
+Aquí en Resuelve nos gusta resolver problemas, pero también resolverlos con estilo, tu reto es que nos ayudes a calcular el sueldo final de los jugadores usando la información de arriba y el set de datos del servicio de abajo. Puedes usar el lenguaje que más te guste para desarrollar la prueba.
 
 Una vez terminado tu aplicación es necesario que la subas a Github y le notifiques a tu contacto en Resuelve para que la revisen y te agenden una llamada para darte retro sobre tu proceso de aplicación. 
 
