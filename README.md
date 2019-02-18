@@ -35,6 +35,7 @@ Puntos que calificaremos:
 
 - Calidad de código
 - Documentación
+- Pruebas
 - Cómo nos entregas tu aplicación para que la podamos correr
 
 No olvides lucirte y dar lo mejor de ti. Aunque esta sea una aplicación sencilla trátala como si fuera un proyecto que irá directo a producción, tanto en calidad como en despliegue.
