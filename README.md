@@ -38,7 +38,7 @@ No olvides lucirte y dar lo mejor de ti. Aunque esta sea una aplicación sencill
 
 ## Recursos
 
-### Estructura de miembros del equipo
+### Estructura de entrada de los miembros del equipo
 
 ```
 [  
@@ -59,7 +59,7 @@ No olvides lucirte y dar lo mejor de ti. Aunque esta sea una aplicación sencill
       "sueldo_completo":null
    },
    {  
-      "nombre":"Cosme fulanito",
+      "nombre":"Cosme Fulanito",
       "goles_minimos":5,
       "goles":7,
       "sueldo":20000,
@@ -76,4 +76,22 @@ No olvides lucirte y dar lo mejor de ti. Aunque esta sea una aplicación sencill
    }
 ]
 ```
+
+### Respuesta
+
+En la respuesta solo es agregar en la llave sueldo_completo la cadena del monto correcto para cada jugador.
+
+```
+[
+   {  
+      "nombre":"El Rulo",
+      "goles_minimos":10,
+      "goles":9,
+      "sueldo":30000,
+      "bono":15000,
+      "sueldo_completo": "10000000"
+   }
+]
+```
+
 
