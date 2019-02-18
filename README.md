@@ -38,3 +38,42 @@ No olvides lucirte y dar lo mejor de ti. Aunque esta sea una aplicación sencill
 
 ## Recursos
 
+### Estructura de miembros del equipo
+
+```
+[  
+   {  
+      "nombre":"Juan Perez",
+      "goles_minimos":15,
+      "goles":10,
+      "sueldo":50000,
+      "bono":25000,
+      "sueldo_completo":null
+   },
+   {  
+      "nombre":"EL Cuau",
+      "goles_minimos":20,
+      "goles":30,
+      "sueldo":100000,
+      "bono":30000,
+      "sueldo_completo":null
+   },
+   {  
+      "nombre":"Cosme fulanito",
+      "goles_minimos":5,
+      "goles":7,
+      "sueldo":20000,
+      "bono":10000,
+      "sueldo_completo":null
+   },
+   {  
+      "nombre":"El Rulo",
+      "goles_minimos":10,
+      "goles":9,
+      "sueldo":30000,
+      "bono":15000,
+      "sueldo_completo":null
+   }
+]
+```
+
