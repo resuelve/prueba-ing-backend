@@ -94,7 +94,7 @@ En la respuesta solo es agregar en la llave sueldo_completo la cadena del monto 
 ]
 ```
 
-## LLegaste aqúi por casualiudad?
+## LLegaste aquí por casualiudad?
 
 Si llegaste aquí por casualidad y ya tienes la prueba resuelta manda tus resultados a ing@resuelve.io para revisarla y agendar una llamada!!
 
