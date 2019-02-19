@@ -4,7 +4,7 @@ Nos da gusto que quieras aplicar a trabajar como ingeniero en Resuelve, si quier
 
 ## Cálculo de Bonos 
 
-El sueldo del equipo de football se compone de dos partes **un sueldo fijo** y **un bono variable**, la suma de estas dos partes hace el salario completo de un jugador. Tenemos varios criterios para poder calcular el bono variable que se divide en dos partes iguales **alcance de meta individual** y **alcance de meta por equipo**, osea 50% de meta individual y 50% de meta por equipo.
+El sueldo del equipo de football se compone de dos partes **un sueldo fijo** y **un bono variable**, la suma de estas dos partes hace el salario completo de un jugador. Tenemos varios criterios para poder calcular el bono variable que se divide en dos partes iguales **alcance de meta individual** y **alcance de meta por equipo**, es decir, 50% de meta individual y 50% de meta por equipo.
 
 ### ¿Cómo se calculan los alcances de meta y bonos? 
 
@@ -108,7 +108,7 @@ En la respuesta solo es agregar en la llave sueldo_completo la cadena del monto 
 
 ## ¿Llegaste aquí por casualidad?
 
-Si llegaste aquí por casualidad y ya tienes la prueba resuelta manda tus resultados a ing@resuelve.io para revisarla y agendar una llamada!!
+Si llegaste aquí por casualidad y ya tienes la prueba resuelta, manda tus resultados a ing@resuelve.io para revisarla y agendar una llamada.
 
 
 
