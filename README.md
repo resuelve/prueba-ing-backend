@@ -15,7 +15,7 @@ Todo jugador dependiendo de su nivel (A, B, C) tiene un número de goles mínimo
 |A |5|
 |B |10|
 |C |15|
-|Cuau |20|
+|Cuauh |20|
 
 
 
