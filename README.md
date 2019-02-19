@@ -2,7 +2,7 @@
 
 Nos da gusto que quieras aplicar a trabajar como ingeniero en Resuelve, si quieres saber un poco más sobre Resuelve Ingeniería y el equipo puedes ver [aquí](https://github.com/resuelve/nuestro-equipo).
 
-## Calculo de Bonos 
+## Cálculo de Bonos 
 
 El sueldo del equipo de football se compone de dos partes **un sueldo fijo** y **un bono variable**, la suma de estas dos partes hace el salario completo de un jugador. Tenemos varios criterios para poder calcular el bono variable que se divide en dos partes iguales **alcance de meta individual** y **alcance de meta por equipo**, osea 50% de meta individual y 50% de meta por equipo.
 
@@ -28,6 +28,8 @@ Ya sabiendo los porcentajes de alcance de meta tanto individual como por equipo 
 ## La prueba
 
 Aquí en Resuelve nos gusta resolver problemas, pero también resolverlos con estilo, tu reto es que nos ayudes a calcular el sueldo final de los jugadores usando la información de arriba y el set de datos del servicio de abajo. Puedes usar el lenguaje que más te guste para desarrollar la prueba.
+
+Recuerda que son dos equipos, de los que tienes que sacar sus bonos.
 
 Una vez terminado tu aplicación es necesario que la subas a Github y le notifiques a tu contacto en Resuelve para que la revisen y te agenden una llamada para darte retro sobre tu proceso de aplicación. 
 
