@@ -1,4 +1,4 @@
-# Prueba Ingeniería Backend
+# Prueba Ingeniería Resuelve
 
 Nos da gusto que quieras ser parte de nuestro equipo, si quieres saber un poco más sobre Resuelve Ingeniería y el equipo puedes ver [aquí](https://github.com/resuelve/nuestro-equipo).
 
