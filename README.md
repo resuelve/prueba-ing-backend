@@ -101,7 +101,7 @@ En la respuesta deberás llenar la llave `sueldo_completo` con el monto correcto
       "goles":9,
       "sueldo":30000,
       "bono":15000,
-      "sueldo_completo": "10000000"
+      "sueldo_completo": 10000000
    }
 ]
 ```
