@@ -1,14 +1,24 @@
 # Prueba Ingeniería Backend
 
-Nos da gusto que quieras aplicar a trabajar como ingeniero en Resuelve, si quieres saber un poco más sobre Resuelve Ingeniería y el equipo puedes ver [aquí](https://github.com/resuelve/nuestro-equipo).
+Nos da gusto que quieras ser parte de nuestro equipo, si quieres saber un poco más sobre Resuelve Ingeniería y el equipo puedes ver [aquí](https://github.com/resuelve/nuestro-equipo).
 
-## Cálculo de Bonos 
+Este ejercicio es una oportunidad para que escribas un poco de tu código más limpio que nos muestre cómo solucionas problemas triviales de un ingeniero.
 
-El sueldo del equipo de football se compone de dos partes **un sueldo fijo** y **un bono variable**, la suma de estas dos partes hace el salario completo de un jugador. Tenemos varios criterios para poder calcular el bono variable que se divide en dos partes iguales **alcance de meta individual** y **alcance de meta por equipo**, osea 50% de meta individual y 50% de meta por equipo.
+* Escribe el código como si fuera a producción
+* Asume que tu código pasará por un extenso proceso de _code review_
+* No nos importa con qué herramienta o lenguaje lo soluciones
+* Puedes apoyarte en cualquier referencia que desees
+* Asegurate de dejar instrucciones claras de cómo ejecutar tu código como si fuera a desplegarse en producción
+
+## Problema
+
+El sueldo de los jugadores del Resuelve FC se compone de dos partes **un sueldo fijo** y **un bono variable**, la suma de estas dos partes es el sueldo de un jugador. El bono variable se compone de dos partes **meta de goles individual** y **meta de goles por equipo** cada una tiene un peso de 50%.
+
+Tu programa deberá hacer el cálculo del sueldo de los jugadores del Resuelve FC.
 
 ### ¿Cómo se calculan los alcances de meta y bonos? 
 
-Todo jugador dependiendo de su nivel (A, B, C) tiene un número de goles mínimos que hacer cada mes:
+La meta individual de goles por jugador depende del nivel que tenga asignado:
 
 | Nivel |Goles/mes|
 | ------------- |:-------------:| 
@@ -17,36 +27,27 @@ Todo jugador dependiendo de su nivel (A, B, C) tiene un número de goles mínimo
 |C |15|
 |Cuauh |20|
 
+Ejemplo:
+Los jugadores Juan, Pedro, Martín y Luis anotaron así durante el mes:
 
+| Jugador | Nivel |Goles anotados en el mes/mínimo requerido|
+| ------------- |:-------------:| :-----------: |
+|Juan | A |6/5|
+|Pedro | B |7/10|
+|Martín |C |16/15|
+|Luis | Cuauh |19/20|
+|  | | |
+| total |  |48/50|
 
-El alcance de meta individual es el porcentaje de goles realizados contra el mínimo, es decir, si un Jugador C hace 15 goles en un mes tiene 100% de la parte proporcional de su bono que corresponte al alcance individual de la meta, si hace más de 15 sigue teniendo el 100% por que el % esta topado, pero, si hace 13 puntos tendría el 86%.
-
-El alcance de meta del equipo es el promedio del alcance de meta individual de todos los miembros.
-
-Ya sabiendo los porcentajes de alcance de meta tanto individual como por equipo ya podemos saber qué cantidad del bono le corresponde a cada jugador. 
+En el bono por equipo tendrían un alcance de 98%
+Luis tendría un alcance individual de 95% para un alcance total de 96.5%
+El suelo fijo de Luis es de 50,000.00 y su bono es de 10,000.00 por lo que su sueldo final será $59,650.00
 
 ## La prueba
 
-Aquí en Resuelve nos gusta resolver problemas, pero también resolverlos con estilo, tu reto es que nos ayudes a calcular el sueldo final de los jugadores usando la información de arriba y el set de datos del servicio de abajo. Puedes usar el lenguaje que más te guste para desarrollar la prueba.
+Tu programa deberá recibir como input un JSON con esta estructura:
 
-Recuerda que son dos equipos, de los que tienes que sacar sus bonos.
-
-Una vez terminado tu aplicación es necesario que la subas a Github y le notifiques a tu contacto en Resuelve para que la revisen y te agenden una llamada para darte retro sobre tu proceso de aplicación. 
-
-Puntos que calificaremos:
-
-- Calidad de código
-- Documentación
-- Pruebas
-- Cómo nos entregas tu aplicación para que la podamos correr
-
-No olvides lucirte y dar lo mejor de ti. Aunque esta sea una aplicación sencilla trátala como si fuera un proyecto que irá directo a producción, tanto en calidad como en despliegue.
-
-## Recursos
-
-### Estructura de entrada de los miembros del equipo
-
-```
+```json
 [  
    {  
       "nombre":"Juan Perez",
@@ -89,11 +90,10 @@ No olvides lucirte y dar lo mejor de ti. Aunque esta sea una aplicación sencill
 ]
 ```
 
-### Respuesta
 
-En la respuesta solo es agregar en la llave sueldo_completo la cadena del monto correcto para cada jugador.
+En la respuesta deberás llenar la llave `sueldo_completo` con el monto correcto de cada jugador. 
 
-```
+```json
 [
    {  
       "nombre":"El Rulo",
@@ -105,6 +105,10 @@ En la respuesta solo es agregar en la llave sueldo_completo la cadena del monto 
    }
 ]
 ```
+
+## Bonus
+Además de calcular el sueldo de los jugadores del Resuelve FC, tu programa puede calcular el sueldo de los jugadores de otros equipos con distintos mínimos por nivel. Tu programa deberá recibir como input un solo JSON con el arreglo de equipos.
+
 
 ## ¿Llegaste aquí por casualidad?
 
