@@ -59,8 +59,8 @@ Tu programa deberá recibir como input un JSON con esta estructura:
       "equipo":"rojo"
    },
    {  
-      "nombre":"EL Cuau",
-      "nivel":"Cuau",
+      "nombre":"EL Cuauh",
+      "nivel":"Cuauh",
       "goles":30,
       "sueldo":100000,
       "bono":30000,
@@ -101,7 +101,8 @@ En la respuesta deberás llenar la llave `sueldo_completo` con el monto correcto
       "goles":9,
       "sueldo":30000,
       "bono":15000,
-      "sueldo_completo": 10000000
+      "sueldo_completo": 10000000,
+      "equipo":"rojo"
    }
 ]
 ```
