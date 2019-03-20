@@ -39,9 +39,9 @@ Los jugadores Juan, Pedro, Martín y Luis anotaron así durante el mes:
 |  | | |
 | total |  |48/50|
 
-En el bono por equipo tendrían un alcance de 98%
-Luis tendría un alcance individual de 95% para un alcance total de 96.5%
-El suelo fijo de Luis es de 50,000.00 y su bono es de 10,000.00 por lo que su sueldo final será $59,650.00
+En el bono por equipo tendrían un alcance de 96%
+Luis tendría un alcance individual de 95% para un alcance total de 95.5%
+El suelo fijo de Luis es de 50,000.00 y su bono es de 10,000.00 por lo que su sueldo final será $59,550.00
 
 ## La prueba
 
@@ -101,7 +101,7 @@ En la respuesta deberás llenar la llave `sueldo_completo` con el monto correcto
       "goles":9,
       "sueldo":30000,
       "bono":15000,
-      "sueldo_completo": 10000000,
+      "sueldo_completo": 14250,
       "equipo":"rojo"
    }
 ]
