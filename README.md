@@ -113,7 +113,7 @@ Además de calcular el sueldo de los jugadores del Resuelve FC, tu programa pued
 
 ## ¿Llegaste aquí por casualidad?
 
-Si llegaste aquí por casualidad y ya tienes la prueba resuelta manda tus resultados a ingeniero@resuelve.io para revisarla y agendar una llamada!!
+Si llegaste aquí por casualidad y ya tienes la prueba resuelta manda tus resultados a jobs@resuelve.io para revisarla y agendar una llamada!!
 
 
 
