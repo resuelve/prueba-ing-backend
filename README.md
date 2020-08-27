@@ -115,9 +115,11 @@ En la respuesta deberás llenar la llave `sueldo_completo` con el monto correcto
 Además de calcular el sueldo de los jugadores del Resuelve FC, tu programa puede calcular el sueldo de los jugadores de otros equipos con distintos mínimos por nivel. Tu programa deberá recibir como input un solo JSON con el arreglo de equipos.
 
 
-## ¿Llegaste aquí por casualidad?
+## Enviando la prueba
 
-Si llegaste aquí por casualidad y ya tienes la prueba resuelta manda tus resultados a jobs@resuelve.io para revisarla y agendar una llamada!!
+Envía tu prueba junto con tu CV a careers@resuelve.io. Como asunto del correo usa la posición para la que estás aplicando, y asegúrate de en tu mensaje incluir cómo encontraste la oferta disponible.
+
+Nota: Te pedimos que la solución al reto la entregues en un repositorio público de GitHub, Bitbucket, GitLab, o lo que sea que uses. Es importante para nosotros poder ver el historial de commits que te llevaron a la solución que propones. Por favor evita que tu prueba tenga un solo commit visible.
 
 
 
