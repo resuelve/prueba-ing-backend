@@ -43,6 +43,10 @@ En el bono por equipo tendrían un alcance de 96%
 Luis tendría un alcance individual de 95% para un alcance total de 95.5%
 El suelo fijo de Luis es de 50,000.00 y su bono es de 10,000.00 por lo que su sueldo final será $59,550.00
 
+Ejemplo 2:
+![image](https://user-images.githubusercontent.com/616185/199118891-e7f998dd-67ce-4cb8-abff-8334c016a550.png)
+
+
 ## La prueba
 
 Tu programa deberá recibir como input un JSON con esta estructura:
