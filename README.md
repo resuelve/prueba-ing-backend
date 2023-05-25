@@ -97,7 +97,7 @@ Tu programa deberá recibir como input un JSON con esta estructura:
 ```
 
 
-En la respuesta deberás llenar la llave `sueldo_completo` con el monto correcto de cada jugador. 
+En la respuesta deberás llenar la llave `sueldo_completo` con el monto correcto de cada jugador: 
 
 ```json
 {
@@ -108,9 +108,10 @@ En la respuesta deberás llenar la llave `sueldo_completo` con el monto correcto
          "goles":9,
          "sueldo":30000,
          "bono":15000,
-         "sueldo_completo": 14250,
+         "sueldo_completo":42450,
          "equipo":"rojo"
-      }
+      },
+      ...
    ]
 }
 ```
